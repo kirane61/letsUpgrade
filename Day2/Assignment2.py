@@ -5,7 +5,7 @@
 
 
 import random
-maxTicketsAvailable = 10
+maxTicketsAvailable = int(input("Enter the number of maximum tickets available:"))
 participants=[]
 
 for i in range (0,maxTicketsAvailable):
