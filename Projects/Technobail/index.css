@@ -1,0 +1,445 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* header css */
+
+.heading{
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+}
+
+.containers{
+    width: 90%;
+    display: flex;
+}
+
+.heading_containers{
+    justify-content: space-between;    
+}
+
+.logo{
+    height: 90px;
+    width: 15%;
+    font-size: 40px;
+    font-family: segoe UI;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    line-height: 90px;
+}
+
+.navigation{
+    height: 90px;
+    width: 35%;
+    display: flex;
+}
+
+.navigation-item{
+    width: 20%;
+    height: 90px;
+    /* background-color: gray; */
+    font-family: segoe UI;
+    text-align: center;
+    line-height: 90px;
+    color: white;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.navigation-item:hover {
+    background-color: white;
+    color: #004777;
+    }
+
+.banner{
+    height: 95vh;
+    width: 100%;
+    background-color: gray;
+    background-size: cover;
+    background-image: url('./images/banner.jpg');
+}
+
+.overlaying{
+    height: 95vh;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+}
+
+.banner_text{
+    height: 350px;
+    width: 55%;
+    background-color: rgba(0,71,119,0.9);
+    font-family: segoe UI;
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-left:22.5%;
+}
+
+.banner_title{
+    font-size: 30px;
+    margin-bottom: 15px;
+    color:solid white;
+    
+}
+
+.banner_description{
+    margin-bottom: 30px;
+    font-size:20px;
+}
+
+.padd{
+    padding: 50px;
+}
+
+.banner_btn{
+    padding-left: 60px;
+    padding-right:60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    font-family: segoe ui;
+    border:3px solid white;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.banner_btn:hover{
+    background-color: white;
+    color: rgba(16, 128, 234, 1);
+}
+
+/* css for services  */
+
+.services{
+    padding-top:50px;
+    padding-bottom: 50px;
+    background-color: #80c2a5;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: segoe UI;
+}
+
+.services_container{
+    margin-top: 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.service{
+    height: 400px;
+    width: 47%;
+    background-color:gray;
+    display: flex;
+    margin-top: 20px;
+}
+
+
+.service_img{
+    width: 40%;
+    height: 400px;
+    display: flex;
+    overflow: hidden;
+}
+
+.service_details{
+    width: 60%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.service_padd{
+    padding: 20px;
+}
+
+
+.service_btn{
+
+    padding-left: 60px;
+    padding-right:60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    background-color: rgba(0,71,119,0.9);
+    color: white;
+    font-weight: bold;
+    font-family: segoe ui;
+    border:none;
+    cursor: pointer;
+    transition: .4s;
+
+}
+
+.service_title{
+    margin-bottom: 15px;
+}
+
+.service_desc{
+    margin-bottom: 30px;
+}
+
+/* /css for about */
+
+.about{
+    width:100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color:whitesmoke;
+    display:flex;
+    flex-direction: column;
+    font-family: seoge UI;
+    align-items: center;
+
+}
+.about_container{
+    margin-top:30px;
+    line-height:25px;
+    display:inline;
+
+}
+
+.start_text{
+    font-size:40px;
+    font-weight: bold;
+    color:gray;
+}
+
+/* css for highlight  */
+.highlight{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width:100%;
+    background-color:rgba(16, 128, 234, 1);
+    display: flex;
+    justify-content: center;
+}
+
+.highlight_container{
+    justify-content: space-between;
+    
+}
+
+.high_ele{
+    width:22%;
+    height: 230px;
+    background-color: rgba(0,0,1,0.4);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: seoge UI;
+    
+}
+
+.high_title{
+    font-size:60px;
+
+
+}
+
+.high_desc{
+    font-size:25px;
+    color:white;
+}
+
+.quote{
+    padding-top: 50px;
+    padding-bottom:50px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    font-family: seoge UI;
+}
+
+.quote_container{
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote_title{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.quote_btn{
+    padding-left: 60px;
+    padding-right:60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    background-color: rgba(16, 128, 234, 1);
+    color: white;
+    font-weight: bold;
+    font-family: segoe ui;
+    border:none;
+    cursor: pointer;
+    transition: .4s;
+
+
+}
+/* css for protofilo /  */
+
+.portfolio{
+    /* padding-top: 50px;
+    padding-bottom: 50px; */
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background-color:#e4e4e4;
+    font-family: seoge UI;
+    
+}
+
+.portfolio_container{
+    flex-wrap: wrap;
+    /* margin-top: 30px; */
+    width:100%;
+}
+
+.project{
+    width:25%;
+    height:300px;
+    display:flex;
+    overflow: hidden;
+
+}
+
+.project_1{
+    background-image: url("https://images.pexels.com/photos/3689532/pexels-photo-3689532.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-size: cover;
+}
+
+.project_2{
+    background-image: url("https://images.pexels.com/photos/2277420/pexels-photo-2277420.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-size: cover;
+    align-items: flex-end;
+
+}
+.project_3{
+    background-image: url("https://images.pexels.com/photos/4796740/pexels-photo-4796740.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-size: cover;
+}
+.project_4{
+    background-image: url("https://images.pexels.com/photos/7618308/pexels-photo-7618308.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-size: cover;
+    align-items: flex-end;
+}
+.project_5{
+    background-image: url("https://images.pexels.com/photos/1149137/pexels-photo-1149137.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-size: cover;
+     /* align-items: flex-end; */
+}
+.project_6{
+    background-image: url("https://images.pexels.com/photos/132774/pexels-photo-132774.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-size: cover;
+    align-items: flex-end;
+}
+.project_7{
+    background-image: url("https://images.pexels.com/photos/7622307/pexels-photo-7622307.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-size: cover;
+}
+.project_8{
+    background-image: url("https://images.pexels.com/photos/7608269/pexels-photo-7608269.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-size: cover; align-items: flex-end;
+}
+
+.project_title{
+    color:white;
+    width:100%;
+    height:100px;
+    text-indent: 30px;
+    line-height:150px;
+    background-color:rgba(16, 128, 234, 0.5);
+    cursor:pointer;
+}
+
+.project_title:hover{
+    height:300px;
+    transition: .4s;
+}
+
+
+/* css for footer  */
+
+.footer{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background-color: #353535;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer_child{
+    height:300px;
+    width:25%;
+    background-color: gray;
+     font-family: seoge UI;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+} 
+.footer_child_1{
+   
+   
+    color: white;
+    font-size: 5px;
+}
+
+li{
+    list-style-type: none;
+    margin-bottom: 10px;
+    color:white;
+}
+.first{
+    font-size:22px;
+}
+.footer_child_4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social_container{
+    width:90%;
+    justify-content: space-between;
+}
+.social_icon{
+    height:60px;
+    width:60px;
+    background-color: white;
+
+}
+
+.si1{
+    background-image: url("images/iconfinder_386622_facebook_icon_256px.png");
+    background-size: cover;
+}
+
+.si2{
+    background-image: url("images/iconfinder_3146786_instagram_logo_icon_256px.png");
+    background-size: cover;
+}
+
+.si3{
+    background-image: url("images/iconfinder_317725_linkedin_social_icon_256px.png");
+    background-size: cover;
+}
+
+.si4{
+    background-image: url("images/iconfinder_317726_google\ plus_social\ media_social_icon_256px.png");
+    background-size: cover;
+}
