@@ -158,5 +158,8 @@ while True:
                     print("The game is draw!")
                 else:
                     turn = "player1"
+        
+        if not check_replay():
+            break
 
 
