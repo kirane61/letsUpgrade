@@ -159,7 +159,7 @@ while True:
                 else:
                     turn = "player1"
         
-        if not check_replay():
+        if not check_for_replay():
             break
 
 
